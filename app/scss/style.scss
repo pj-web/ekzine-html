@@ -94,17 +94,6 @@ h2 {
     margin: 0 0 20px 0;
 }
 
-h1.anim-items {
-    transform: translate(0px, 120%);
-    opacity: 0;
-    transition: all 0.8s ease 0s;
-
-    &.active {
-        transform: translate(0px, 0px);
-        opacity: 1;
-    }
-}
-
 h2.anim-items {
     transform: translate(0px, 120%);
     opacity: 0;
@@ -138,16 +127,6 @@ h4 {
     font-weight: 700;
 }
 
-div.anim-items {
-    transform: translate(0px, 80%);
-    opacity: 0;
-    transition: all 0.8s ease 0s;
-
-    &.active {
-        transform: translate(0px, 0px);
-        opacity: 1;
-    }
-}
 
 a {
     color: #D61A33;
